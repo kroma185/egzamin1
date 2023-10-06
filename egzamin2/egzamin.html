@@ -1,0 +1,44 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Zespoły ratownicze</title>
+        <link rel="stylesheet" href="styl.css"/>
+    </head>
+    <body>
+        <div class "baner1">
+            <h2>Dodanie zespołu ratowniczego</h2>
+        </div>
+        <div class="baner2">
+<p>kontakt: 022 222 11 333</p><br>
+        </div>
+        <div class="baner3">
+            <img src="obraz.jpg" alt="ratownicy">
+        </div>
+        <div class="main">
+            <h3>Dodaj nowy zespół</h3>
+            <form action="ratownicy.php" method="post">
+                <label>Numer Karetki: <input type="number" name="karetka"/></label><br>
+                <label>Imię i nazwisko pierwszego ratownika: <input type="text" name="r1"/></label><br>
+                <label>Imię i nazwisko drugiego ratownika: <input type="text" name="r2"/></label><br>
+                <label>Imię i nazwisko trzeciego ratownika: <input type="text" name="r3"/></label><br>
+                <input type="reset" value="Czyść"/>
+                <input type="submit" value="Dodaj" name="btn"/>
+            </form>
+        </div>
+        <div class="stopka1">
+            <a href="kwerendy.txt" download="zobacz kwerendy"></a>
+        </div>
+        <div class="stopka2">
+            <h5>Przypominamy numery alarmowe</h5>
+            <ol>
+                <li>112</li>
+                <li>999</li>
+            </ol>
+        </div>
+        <div class="stopka3">
+            <p>Autor: Patryk Kromski</p>
+        </div>
+    </body>
+    </html>
