@@ -1,0 +1,11 @@
+Zapytanie1
+SELECT zespol1, zespol2, wynik, data_rozgrywki FROM rozgrywka WHERE zespol1='EVG';
+
+Zapytanie2
+SELECT imie, nazwisko FROM zawodnik WHERE id='3';
+
+Zapytanie3
+SELECT zawodnik.id, zawodnik.nazwisko, pozycja.nazwa FROM zawodnik  INNER JOIN pozycja WHERE zawodnik.id='1' OR zawodnik.id='2' OR zawodnik.id='3';
+
+Zapytanie4
+DROP TABLE liga;

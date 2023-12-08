@@ -1,0 +1,58 @@
+body{
+    font-family: Tahoma;
+    background-color: crimson;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+}
+h2{
+    text-align: center;
+    letter-spacing: 7px;
+    text-transform: capitalize;
+}
+header{
+    color: white;
+    text-align: center;
+    height: 370px;
+    display: flex;
+    flex-direction: column;
+}
+.dzialaj_pls{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.mecze{
+    color: white;
+    text-align: center;
+    width: 200px;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.mecze:hover{
+    border-color: whitesmoke;
+}
+main{
+    background-color: whitesmoke;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+}
+.left{
+    background-color: whitesmoke;
+    width: 70%;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+}
+.right{
+    background-color: whitesmoke;
+    width: 30%;
+    height: 230px;
+    text-align: right;
+}

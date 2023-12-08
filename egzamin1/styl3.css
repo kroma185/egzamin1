@@ -1,0 +1,47 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    font-family: Arial;
+}
+header{
+    display: flex;
+    flex-direction: row;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    background-color: snow;
+    padding: 70px;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+}
+header, footer{
+    background-color: saddlebrown;
+    color: white;
+    height: 100px;
+}
+.cos{
+    width: 55%;
+    font-size: 120%;
+}
+.kontakty{
+    width: 25%;
+}
+.mierda{
+    width: 20%;
+    text-align: right;
+}
+footer a{
+    border: 2px dotted saddlebrown;
+    background-color: snow;
+    padding: 20px;
+    line-height: 100px;
+    color: saddlebrown;
+}
+footer ol{
+    list-style: lower-alpha;
+}

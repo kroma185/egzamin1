@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zespoły ratownicze</title>
+    <link rel="stylesheet" href="styl3.css">
+</head>
+<body>
+    <header>
+        <div class="cos">
+            <h2>Dodanie zespołu ratowniczego</h2>
+        </div>
+        <div class="kontakty">
+            <p>Kontakt:<br>022 222 11 333</p>
+        </div>
+        <div class="mierda">
+            <img src="pliki3/obraz1.jpg" alt="Ratownicy">
+        </div>
+    </header>
+    <main>
+        <h3>Dodaj nowy zespół</h3>
+        <form method="post" action="dodanie.php">
+            <label>Numer karetki</label><br>
+            <input type="number" name="numer" id="numer"><br>
+            <label>Imię i nazwisko pierwszego ratownika</label><br>
+            <input type="text" name="pierwszy" id="pierwszy"><br>
+            <label>Imię i nazwisko drugiego ratownika</label><br>
+            <input type="text" name="drugi" id="drugi"><br>
+            <label>Imię i nazwisko trzeciego ratownika</label><br>
+            <input type="text" name="trzeci" id="trzeci"><br>
+            <button type="reset">CZYŚĆ</button>
+            <button type="submit">DODAJ</button>
+
+        </form>
+
+    </main>
+    <footer>
+        <div class="cos">
+            <a href="kwerendy.txt">Zobacz kwerendy</a>
+        </div>
+        <div class="kontakty">
+            <h5>Przypominamy numery alarmowe</h5>
+            <ol>
+                <li>112</li>
+                <li>999</li>
+            </ol>
+        </div class="mierda">
+        <div>
+            <p>Autor:<br>Patryk Kromski</p>
+        </div>
+    </footer>
+</body>
+</html>
